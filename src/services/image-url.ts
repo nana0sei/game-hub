@@ -1,4 +1,5 @@
 const getCroppedUrl = (url: string) => {
+  if (!url) return "";
   const target = "media/";
   const index = url.indexOf(target) + target.length;
   //slice the url from beginning to the required index then add new path + rest of url
