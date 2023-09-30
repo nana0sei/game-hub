@@ -1,5 +1,5 @@
 import APIClient from "../services/api-client";
-import { Trailer } from "../entities/Trailer";
+import Trailer from "../entities/Trailer";
 import { useQuery } from "@tanstack/react-query";
 
 // hook for fetching game trailers
